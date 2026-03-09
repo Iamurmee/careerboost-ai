@@ -1,0 +1,26 @@
+function improveBullet(){
+
+let text = document.getElementById("resumeInput").value;
+
+document.getElementById("resumeResult").innerText =
+"Improved bullet: Demonstrated ability to " + text +
+" while delivering measurable results and contributing to team success.";
+}
+
+function generateCover(){
+
+let job = document.getElementById("jobTitle").value;
+
+document.getElementById("coverResult").innerText =
+"I am excited to apply for the " + job +
+" role. My experience and ability to deliver strong results make me confident I would contribute positively to your team.";
+}
+
+function generateAnswer(){
+
+let question = document.getElementById("question").value;
+
+document.getElementById("answerResult").innerText =
+"A good way to answer '" + question +
+"' is to describe the situation, the actions you took, and the measurable results you achieved.";
+}
