@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>CareerBoost AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>CareerBoost AI</h1>
+<p>Free tools to improve your job applications.</p>
+
+<div class="tool">
+<h2>Resume Bullet Improver</h2>
+<textarea id="resumeInput" placeholder="Paste a resume bullet"></textarea>
+<button onclick="improveBullet()">Improve</button>
+<p id="resumeResult"></p>
+</div>
+
+<div class="tool">
+<h2>Cover Letter Generator</h2>
+<input id="jobTitle" placeholder="Job title">
+<button onclick="generateCover()">Generate</button>
+<p id="coverResult"></p>
+</div>
+
+<div class="tool">
+<h2>Interview Answer Generator</h2>
+<input id="question" placeholder="Interview question">
+<button onclick="generateAnswer()">Generate</button>
+<p id="answerResult"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
