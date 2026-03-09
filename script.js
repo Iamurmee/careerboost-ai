@@ -98,3 +98,45 @@ let role = document.getElementById("skillsRole").value;
 document.getElementById("skillsResult").innerText =
 "Key skills for a " + role + " include communication, analytical thinking, problem solving, collaboration, and the ability to adapt quickly.";
 }
+function generateObjective(){
+
+let role = document.getElementById("objectiveRole").value;
+
+document.getElementById("objectiveResult").innerText =
+"Motivated professional seeking a " + role +
+" role where I can contribute strong problem-solving skills and deliver measurable results.";
+}
+
+function generateBio(){
+
+let role = document.getElementById("bioRole").value;
+
+document.getElementById("bioResult").innerText =
+role + " passionate about delivering impactful results, collaborating with teams, and continuously improving performance.";
+}
+
+function generateStrength(){
+
+let role = document.getElementById("strengthRole").value;
+
+document.getElementById("strengthResult").innerText =
+"A key strength I bring as a " + role +
+" is the ability to solve complex problems and consistently deliver high-quality results under pressure.";
+}
+
+function generateWeakness(){
+
+let role = document.getElementById("weaknessRole").value;
+
+document.getElementById("weaknessResult").innerText =
+"One area I’ve worked to improve is taking on too many responsibilities. I’ve learned to prioritise tasks and delegate when appropriate.";
+}
+
+function generateEmail(){
+
+let topic = document.getElementById("emailTopic").value;
+
+document.getElementById("emailResult").innerText =
+"I hope you're well. I’m writing regarding " + topic +
+" and wanted to follow up to ensure everything is progressing smoothly.";
+}
